@@ -30,7 +30,7 @@
     - [ ] Subtask: Implement `SliceStack`.
     - [ ] Subtask: Write Failing Tests for `ListStack` (using `pkg/structures/list`).
     - [ ] Subtask: Implement `ListStack`.
-- [ ] Task: Implement Queue (Slice & List based)
+- [x] Task: Implement Queue (Slice & List based) 7171296
     - [ ] Subtask: Create `pkg/structures/queue`.
     - [ ] Subtask: Write Failing Tests for `SliceQueue` and `ListQueue`.
     - [ ] Subtask: Implement `SliceQueue` (handle underlying array shifting or logical pointers).
