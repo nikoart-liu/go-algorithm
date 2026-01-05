@@ -1,0 +1,8 @@
+{
+  "track_id": "linear_ds_20260105",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-01-05T00:00:00Z",
+  "updated_at": "2026-01-05T00:00:00Z",
+  "description": "构建基础线性数据结构模块 (Foundational Linear Data Structures)：实现链表（单向与双向）、栈、队列及其循环队列变体。包含完整的 Mermaid 图解、单元测试、泛型支持以及基于 testing.B 的性能评估文档。"
+}
