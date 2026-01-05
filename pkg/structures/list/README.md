@@ -11,8 +11,8 @@
 graph LR
     Head((Head)) --> Node1
     subgraph Nodes
-    Node1[Value | Next] --> Node2[Value | Next]
-    Node2 --> Node3[Value | Next]
+    Node1["Value | Next"] --> Node2["Value | Next"]
+    Node2 --> Node3["Value | Next"]
     end
     Node3 --> NULL[/NULL/]
     Tail((Tail)) --> Node3
@@ -37,8 +37,8 @@ graph LR
 graph LR
     Head((Head)) --> Node1
     subgraph Nodes
-    Node1[Prev | Value | Next] <--> Node2[Prev | Value | Next]
-    Node2 <--> Node3[Prev | Value | Next]
+    Node1["Prev | Value | Next"] <--> Node2["Prev | Value | Next"]
+    Node2 <--> Node3["Prev | Value | Next"]
     end
     Node3 --> NULL[/NULL/]
     Node1 --> NULL2[/NULL/]
