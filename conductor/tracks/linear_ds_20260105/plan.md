@@ -21,25 +21,13 @@
     - [ ] Subtask: Verify Coverage (>80%).
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Project Setup & Linked Lists' (Protocol in workflow.md) 919b632
 
-## Phase 2: Stacks and Queues
+## Phase 2: Stacks and Queues [checkpoint: e337b2f]
 基于切片和链表实现栈与队列，并处理环形队列逻辑。
 
 - [x] Task: Implement Stack (Slice & List based) f4c62ea
-    - [ ] Subtask: Create `pkg/structures/stack`.
-    - [ ] Subtask: Write Failing Tests for `SliceStack` (Push/Pop/Peek).
-    - [ ] Subtask: Implement `SliceStack`.
-    - [ ] Subtask: Write Failing Tests for `ListStack` (using `pkg/structures/list`).
-    - [ ] Subtask: Implement `ListStack`.
 - [x] Task: Implement Queue (Slice & List based) 7171296
-    - [ ] Subtask: Create `pkg/structures/queue`.
-    - [ ] Subtask: Write Failing Tests for `SliceQueue` and `ListQueue`.
-    - [ ] Subtask: Implement `SliceQueue` (handle underlying array shifting or logical pointers).
-    - [ ] Subtask: Implement `ListQueue`.
 - [x] Task: Implement Circular Queue e4b137f
-    - [ ] Subtask: Define `CircularQueue[T]` with fixed size.
-    - [ ] Subtask: Write Failing Tests for `IsFull`, `Enqueue` (wrap around), `Dequeue` (wrap around).
-    - [ ] Subtask: Implement Circular Queue logic.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Stacks and Queues' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Stacks and Queues' (Protocol in workflow.md) e337b2f
 
 ## Phase 3: Documentation, Visualization & Performance
 完善文档，添加图解，并进行详细的性能评估。
