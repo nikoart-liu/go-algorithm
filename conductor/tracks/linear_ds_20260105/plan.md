@@ -1,6 +1,6 @@
 # Track Plan: Foundational Linear Data Structures
 
-## Phase 1: Project Setup & Linked Lists
+## Phase 1: Project Setup & Linked Lists [checkpoint: 919b632]
 建立项目基础结构，并实现核心的链表结构。
 
 - [x] Task: Initialize Project Structure 02777b2
@@ -19,7 +19,7 @@
     - [ ] Subtask: Write Failing Tests for bidirectional operations.
     - [ ] Subtask: Implement operations (Add `Prev` pointer logic).
     - [ ] Subtask: Verify Coverage (>80%).
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Setup & Linked Lists' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Project Setup & Linked Lists' (Protocol in workflow.md) 919b632
 
 ## Phase 2: Stacks and Queues
 基于切片和链表实现栈与队列，并处理环形队列逻辑。
