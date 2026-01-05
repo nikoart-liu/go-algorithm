@@ -32,7 +32,7 @@
 ## Phase 3: Documentation, Visualization & Performance
 完善文档，添加图解，并进行详细的性能评估。
 
-- [ ] Task: Add Mermaid Visualizations
+- [x] Task: Add Mermaid Visualizations 5b5cbfa
     - [ ] Subtask: Create `pkg/structures/list/README.md` with Singly/Doubly list diagrams.
     - [ ] Subtask: Create `pkg/structures/stack/README.md` with Stack LIFO diagrams.
     - [ ] Subtask: Create `pkg/structures/queue/README.md` with Queue/Circular diagrams.
