@@ -1,0 +1,10 @@
+goos: darwin
+goarch: arm64
+pkg: go-algorithm/pkg/structures/stack
+cpu: Apple M3 Pro
+BenchmarkSliceStack_Push-12    	100000000	        12.41 ns/op
+BenchmarkListStack_Push-12     	54947256	        21.44 ns/op
+BenchmarkSliceStack_Pop-12     	860615798	         3.004 ns/op
+BenchmarkListStack_Pop-12      	489053106	         7.008 ns/op
+PASS
+ok  	go-algorithm/pkg/structures/stack	43.760s

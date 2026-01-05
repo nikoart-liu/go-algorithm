@@ -1,0 +1,12 @@
+goos: darwin
+goarch: arm64
+pkg: go-algorithm/pkg/structures/queue
+cpu: Apple M3 Pro
+BenchmarkSliceQueue_Enqueue-12       	275254336	         5.058 ns/op
+BenchmarkListQueue_Enqueue-12        	46348896	        22.81 ns/op
+BenchmarkCircularQueue_Enqueue-12    	353747859	         4.262 ns/op
+BenchmarkSliceQueue_Dequeue-12       	865077626	         3.468 ns/op
+BenchmarkListQueue_Dequeue-12        	488933299	        10.06 ns/op
+BenchmarkCircularQueue_Dequeue-12    	391964030	         3.081 ns/op
+PASS
+ok  	go-algorithm/pkg/structures/queue	48.503s
