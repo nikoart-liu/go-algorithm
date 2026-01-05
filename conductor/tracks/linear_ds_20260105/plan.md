@@ -7,7 +7,7 @@
     - [ ] Subtask: Initialize go module `go mod init <module_name>` (User to provide or infer `go-algorithm`)
     - [ ] Subtask: Create standard layout directories: `pkg/structures`, `pkg/algorithms`, `cmd`.
     - [ ] Subtask: Configure `golangci-lint`.
-- [ ] Task: Implement Singly Linked List (Generic)
+- [x] Task: Implement Singly Linked List (Generic) 897a7ac
     - [ ] Subtask: Define `Node[T]` and `LinkedList[T]` struct in `pkg/structures/list`.
     - [ ] Subtask: Write Failing Tests for `PushFront`, `PushBack`, `Size`.
     - [ ] Subtask: Implement `PushFront`, `PushBack`, `Size`.
