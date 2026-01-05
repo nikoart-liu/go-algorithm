@@ -35,7 +35,7 @@
     - [ ] Subtask: Write Failing Tests for `SliceQueue` and `ListQueue`.
     - [ ] Subtask: Implement `SliceQueue` (handle underlying array shifting or logical pointers).
     - [ ] Subtask: Implement `ListQueue`.
-- [ ] Task: Implement Circular Queue
+- [x] Task: Implement Circular Queue e4b137f
     - [ ] Subtask: Define `CircularQueue[T]` with fixed size.
     - [ ] Subtask: Write Failing Tests for `IsFull`, `Enqueue` (wrap around), `Dequeue` (wrap around).
     - [ ] Subtask: Implement Circular Queue logic.
