@@ -67,6 +67,7 @@ func (l *LinkedList[T]) Get(index int) (T, error) {
 
 // InsertAt inserts a value at the specified index.
 func (l *LinkedList[T]) InsertAt(index int, value T) error {
+	// 允许的索引范围：[0, l.size]
 	if index < 0 || index > l.size {
 		return fmt.Errorf("index out of bounds")
 	}
@@ -83,11 +84,14 @@ func (l *LinkedList[T]) InsertAt(index int, value T) error {
 
 	newNode := &Node[T]{Value: value}
 	prev := l.head
+	// 遍历到插入为止的前一个节点
 	for i := 0; i < index-1; i++ {
 		prev = prev.Next
 	}
 
+	// 新节点指向后续节点
 	newNode.Next = prev.Next
+	// 前一个节点指向新节点
 	prev.Next = newNode
 	l.size++
 	return nil
