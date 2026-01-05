@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-## [ ] Track: Foundational Linear Data Structures
+## [~] Track: Foundational Linear Data Structures
 *Link: [./conductor/tracks/linear_ds_20260105/](./conductor/tracks/linear_ds_20260105/)*
