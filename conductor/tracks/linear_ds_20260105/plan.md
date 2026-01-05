@@ -24,7 +24,7 @@
 ## Phase 2: Stacks and Queues
 基于切片和链表实现栈与队列，并处理环形队列逻辑。
 
-- [ ] Task: Implement Stack (Slice & List based)
+- [x] Task: Implement Stack (Slice & List based) f4c62ea
     - [ ] Subtask: Create `pkg/structures/stack`.
     - [ ] Subtask: Write Failing Tests for `SliceStack` (Push/Pop/Peek).
     - [ ] Subtask: Implement `SliceStack`.
