@@ -15,7 +15,7 @@
 
 ## 核心模块
 1. **基础数据结构**：
-   - 线性结构：数组 (Array)、链表 (Linked List)、栈 (Stack)、队列 (Queue)。
+   - 线性结构：[已完成] 链表 (Singly/Doubly Linked List)、栈 (Stack)、队列 (Queue/Circular Queue)。
    - 散列结构：哈希表 (Hash Table/Map)。
 2. **高级数据结构**：
    - 树形结构：二叉树 (Binary Tree)、二叉搜索树 (BST)、堆 (Heap)。

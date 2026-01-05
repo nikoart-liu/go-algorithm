@@ -53,11 +53,15 @@ func (l *LinkedList[T]) Size() int {
 
 // Get returns the value at the specified index.
 func (l *LinkedList[T]) Get(index int) (T, error) {
+	// 验证索引是否在有效范围内：[0, l.size)
 	if index < 0 || index >= l.size {
 		var zero T
 		return zero, fmt.Errorf("index out of bounds")
 	}
 
+	// 从头节点 l.head 开始遍历
+	// 循环 index 次，每次移动到下一个节点
+	// 循环结束后，current 指向目标索引位置的节点
 	current := l.head
 	for i := 0; i < index; i++ {
 		current = current.Next
@@ -99,6 +103,7 @@ func (l *LinkedList[T]) InsertAt(index int, value T) error {
 
 // Remove removes the element at the specified index and returns its value.
 func (l *LinkedList[T]) Remove(index int) (T, error) {
+	// 验证索引范围：[0, l.size)
 	if index < 0 || index >= l.size {
 		var zero T
 		return zero, fmt.Errorf("index out of bounds")
@@ -106,9 +111,12 @@ func (l *LinkedList[T]) Remove(index int) (T, error) {
 
 	var removeVal T
 
+	// 删除头节点
 	if index == 0 {
 		removeNode := l.head
+		// 更新头节点为原头节点的下一个节点
 		l.head = l.head.Next
+		// 如果头节点为空，说明链表为空，更新尾节点为空
 		if l.head == nil {
 			l.tail = nil
 		}
@@ -117,13 +125,16 @@ func (l *LinkedList[T]) Remove(index int) (T, error) {
 	}
 
 	prev := l.head
+	// 找到待删除节点的前驱节点
 	for i := 0; i < index-1; i++ {
 		prev = prev.Next
 	}
 
 	removeNode := prev.Next
+	// 跳过待删除节点
 	prev.Next = removeNode.Next
 
+	// 如果删除的是尾节点
 	if index == l.size-1 {
 		l.tail = prev
 	}
