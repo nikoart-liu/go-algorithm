@@ -14,7 +14,7 @@
     - [ ] Subtask: Write Failing Tests for `Get`, `InsertAt`, `Remove`.
     - [ ] Subtask: Implement `Get`, `InsertAt`, `Remove`.
     - [ ] Subtask: Refactor and Verify Coverage.
-- [ ] Task: Implement Doubly Linked List (Generic)
+- [x] Task: Implement Doubly Linked List (Generic) c20d629
     - [ ] Subtask: Define `DoublyNode[T]` and `DoublyLinkedList[T]`.
     - [ ] Subtask: Write Failing Tests for bidirectional operations.
     - [ ] Subtask: Implement operations (Add `Prev` pointer logic).
