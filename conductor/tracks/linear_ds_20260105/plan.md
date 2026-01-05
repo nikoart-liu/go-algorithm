@@ -36,7 +36,7 @@
     - [ ] Subtask: Create `pkg/structures/list/README.md` with Singly/Doubly list diagrams.
     - [ ] Subtask: Create `pkg/structures/stack/README.md` with Stack LIFO diagrams.
     - [ ] Subtask: Create `pkg/structures/queue/README.md` with Queue/Circular diagrams.
-- [ ] Task: Implement Benchmarks
+- [x] Task: Implement Benchmarks 03f5603
     - [ ] Subtask: Create `pkg/structures/stack/benchmark_test.go` (Slice vs List).
     - [ ] Subtask: Create `pkg/structures/queue/benchmark_test.go` (Slice vs List vs Circular).
     - [ ] Subtask: Run benchmarks and record results.
